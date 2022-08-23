@@ -19,3 +19,4 @@ with open("balkanug.csv",'w') as csv_file:
         csv_writer.writerow([name,code,price])
         print()
 
+
