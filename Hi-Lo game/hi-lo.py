@@ -36,6 +36,7 @@ while True:
     # check for lives > 0
     if lives == 0:
         print(colorama.Fore.RED + 'You lost! :(')
+        print(f"The number was {guessing_number}")
         state = 'lose'
         score['losses'] += 1
         ask = input(colorama.Fore.RED + 'Wanna try again? :)[y/n]: ')
